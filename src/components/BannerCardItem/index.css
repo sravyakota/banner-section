@@ -1,0 +1,106 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+.heading {
+  color: #326a9d;
+}
+.button {
+  color: #326a9d;
+  border-style: solid;
+  border-color: #326a9d;
+  border-width: 2px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .card-1 {
+    border-style: solid;
+    border-color: #326a9d;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  }
+
+  .card-2 {
+    border-style: solid;
+    border-color: #326a9d;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  }
+
+  .card-3 {
+    border-style: solid;
+    border-color: #326a9d;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-1 {
+    border-style: solid;
+    border-color: #326a9d;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  }
+
+  .card-2 {
+    border-style: solid;
+    border-color: #326a9d;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    margin: 10px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  }
+
+  .card-3 {
+    border-style: solid;
+    border-color: #326a9d;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  }
+}
